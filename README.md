@@ -57,9 +57,15 @@ $ yarn run test:e2e
 # test coverage
 $ yarn run test:cov
 ```
-##API Usage
-# Check API health
+## API Usage
+Check API health
 GET /
+
+Extract and Transform CSV with pagination
+GET /api/csv-etl/:page/:qty
+
+Extract and Transform CSV without pagination
+GET /api/csv-etl/
 
 ## Support
 
