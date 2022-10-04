@@ -1,11 +1,24 @@
 import { Injectable } from '@nestjs/common';
 
+
+const mapper = {
+  manufacturerId: { index: 'ManufacturerID'},
+  name: { index: 'ProductName'},
+  // todo: continue adding index: {} to the matter and use it
+
+}
+
+
+
 @Injectable()
 export class TransformService {
   transform(csvExtractedArray) {
     csvExtractedArray.shift();
     // Skip if not unique ProductID + ItemID + PKG --> unique
     // Products with the same ProductID are part of the same variant
+
+
+    // todo: do not use individual row attribtuion. Use the mapper{} 
     const result = [];
     csvExtractedArray.map((row) => {
       const itemId = row[0],
