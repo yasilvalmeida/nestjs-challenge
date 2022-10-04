@@ -1,0 +1,61 @@
+{
+    "name": "Test",
+    "type": "non-inventory",
+    "shortDescription": "testing",
+    "description": "testing",
+    "vendorId": "3em815PBtEpX2omo1tCit_Vh",
+    "manufacturerId": "oXZff8PdbVqoymQILr3Mi1a8",
+    "storefrontPriceVisibility": "members-only",
+    "variants": [
+        {
+            "id": "yzrpbhavsjaj",
+            "available": null,
+            "attributes": {},
+            "cost": 1,
+            "currency": "USD",
+            "depth": null,
+            "description": null,
+            "dimensionUOM": "in",
+            "height": null,
+            "width": null,
+            "manufacturerItemCode": null,
+            "manufacturerItemId": null,
+            "packaging": null,
+            "price": 15,
+            "quantity": null,
+            "volume": null,
+            "volumeUOM": "ci",
+            "weight": null,
+            "weightUOM": "lb",
+            "optionName": "Packaging: BX",
+            "optionsPath": "zqdpsg",
+            "optionItemsPath": "uqhysi",
+            "sku": null
+        }
+    ],
+    "options": [
+        {
+            "id": "zqdpsg",
+            "name": "Packaging",
+            "dataField": null,
+            "values": [
+                {
+                    "id": "uqhysi",
+                    "name": "BX",
+                    "value": "BX"
+                },
+                {
+                    "id": "feeewf",
+                    "name": "CT",
+                    "value": "CT"
+                }
+            ]
+        }
+    ],
+    "isAvailable": true,
+    "isFragile": false,
+    "storefrontPublished": false,
+    "isTaxable": true,
+    "image": [],
+    "categoryId": null
+}
